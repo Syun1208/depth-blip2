@@ -1,0 +1,24 @@
+# # NYU=(416, 544), KITTI=(352, 1216)
+python ./main.py \
+  --train \
+  --class_name "all" \
+  --model_save_path "./checkpoints/" \
+  --lr 0.001 \
+  --weight_decay 0.01 \
+  --epochs 50 \
+  --train_log_save \
+  --log_result_dir "./log_results/" \
+  --gpu_num "0" \
+  --batch_size 16 \
+  --workers 2 \
+  --auto_bins True \
+  --max_depth 80.0 \
+  --method "second" \
+  --height 416 \
+  --width 544 \
+  --dataset "NYU" \
+  --data_root_path "./datasets/nyu_data/" \
+  --train_file "./datasets/nyu_data/data/nyu2_train.csv" \
+  --val_file "./datasets/nyu_data/data/nyu2_test.csv" \
+  --train_limit 16 \
+  --val_limit 8

@@ -1,0 +1,2 @@
+#ImportError: cannot import name 'LlamaTokenizer' from 'transformers' (/media/ssd1tb/Long/depth-blip2/.venv/lib/python3.9/site-packages/transformers/__init__.py)
+pip install git+https://github.com/huggingface/transformers

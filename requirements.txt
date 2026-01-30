@@ -1,0 +1,8 @@
+torch
+omegaconf
+salesforce-lavis==1.0.0
+numpy==1.23.5
+loguru
+blessings==1.7
+progressbar==2.5
+transformers<4.40
